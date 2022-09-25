@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  apprede:
+    build: .
+    command: python3 app.py
+    volumes: 
+      - .:/env/app
